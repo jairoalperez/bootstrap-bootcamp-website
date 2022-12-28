@@ -11,7 +11,8 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="form.css" />
 </head>
 
 
@@ -58,14 +59,14 @@ expertise
         </div>
     </nav>
 
-    <div class="container p-5 mt-5 border">
+    <div class="container p-5 mt-5 bg-dark text-light rounded">
         <div class="mb-4">
             <label for="exampleFormControlInput1" class="form-label">Complete Name</label>
-            <input type="email" class="form-control" id="name" placeholder="First name Last name">
+            <input type="text" class="form-control" id="name" placeholder="First name Last name">
         </div>
         <div class="mb-4">
             <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-            <input type="email" class="form-control" id="number" placeholder="(xxx) xxx - xxxx">
+            <input type="number" class="form-control" id="number" placeholder="(xxx) xxx - xxxx">
         </div>
         <div class="mb-4">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -88,8 +89,9 @@ expertise
                 <option value="Expert">Expert</option>
             </select>
         </div>
-        <div class="mb-4">
-            <button type="submit" class="btn btn-primary btn-lg mt-3" onclick="submitInfo()">Confirm identity</button>
+        <div class="mb-4 text-center">
+            <button type="submit" class="btn btn-secondary btn-lg mt-3" onclick="submitInfo()">Confirm
+                identity</button>
         </div>
     </div>
 
