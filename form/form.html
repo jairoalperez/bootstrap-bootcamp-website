@@ -15,22 +15,6 @@
     <link rel="stylesheet" href="form.css" />
 </head>
 
-
-<!-- Derrik - Form (Saving personal information)
-name
-contact 
-email
-dob
-doj
-expertise
-    {
-        beginner
-        mid-level
-        expert
-    }
-        {Submit } -->
-
-
 <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
@@ -60,6 +44,7 @@ expertise
     </nav>
 
     <div class="container p-5 mt-5 bg-dark text-light rounded">
+        <h1 class="mb-5 text-center">Register an User</h1>
         <div class="mb-4">
             <label for="exampleFormControlInput1" class="form-label">Complete Name</label>
             <input type="text" class="form-control" id="name" placeholder="First name Last name">
@@ -95,18 +80,24 @@ expertise
         </div>
     </div>
 
+    <div class="container p-5 mt-5 bg-dark text-light rounded">
+        <h1 class="mb-5 text-center">Users Registered</h1>
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Phone Number</th>
+                    <th scope="col">Email Address</th>
+                    <th scope="col">Date of Birth</th>
+                    <th scope="col">Date of Joining</th>
+                    <th scope="col">Expertise</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
 
-
-
-
-
-
-
-
-
-
-
-
+    </div>
 
 </body>
 
