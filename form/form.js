@@ -1,6 +1,6 @@
-function submitInfo() {
+var Num = 1
 
-    var Num = 1
+function submitInfo() {
 
     var name = document.getElementById('name').value
     var number = document.getElementById('number').value
@@ -25,6 +25,7 @@ function submitInfo() {
          </tr>
         `
 
+   Num++
 
 }
 
